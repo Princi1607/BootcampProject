@@ -1,60 +1,72 @@
-/* Basic styles */
-body {
+
+.page{
     margin: 0;
-    padding: 20px;
+    padding: 0px;
     font-family: sans-serif;
-    background-color: #f0f8ff;  /* Light pastel blue */
+    background-color: #f0f8ff;  
+    background-image: url("image.png");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+    
   }
   
-  h1 {
+  #head {
     text-align: center;
     margin-bottom: 20px;
-    color: #333;  /* Dark gray */
+    color: #333;  
   }
   
-  /* Form styles */
-  form {
+  
+  #contact-form{
     display: flex;
     flex-direction: column;
-    width: 500px;
-    margin: 0 auto;
+    width: 600px;
+    margin: auto;
     padding: 20px;
-    border: 1px solid #3c737f;  /* Light gray border */
-    border-radius: 5px;
-    background-color: #92dfdf;  /* Light pastel blue */
+    border: 1px solid #373907;  
+    border-radius: 5px;   
+    background-color: #edef77;  
   }
   
-  label {
+  .box {
     margin-bottom: 5px;
-    color: #e7d86e;  /* Mid gray */
+    color: #080808;  
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
   }
   
   input[type="text"],
   input[type="tel"],
   textarea {
     width: 100%;
-    padding: 10px;
-    border: 1px solid #bb6fe7;  /* Light gray border */
+    padding: 5px;
+    border: 1px solid #bb6fe7;  
     border-radius: 3px;
-    font-size: 16px;
+    font-size: 20px;
   }
   
   textarea {
     resize: vertical;
   }
   
-  button {
+  .mybutton {
     margin-top: 15px;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
-    color: #fff;  /* White text */
-    background-color: #9900cc;  /* Pastel purple */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    color: #fff;  
+    background-color: #088178;
     cursor: pointer;
     transition: background-color 0.2s ease-in-out;
   }
   
-  button:hover {
-    background-color: #aa00ff;  /* Darker pastel purple */
+  .mybutton:hover {
+    background-color:#0a1c46;  
   }
+
+
   
