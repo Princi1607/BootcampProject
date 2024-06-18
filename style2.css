@@ -1,0 +1,60 @@
+/* Basic styles */
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: sans-serif;
+    background-color: #f0f8ff;  /* Light pastel blue */
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;  /* Dark gray */
+  }
+  
+  /* Form styles */
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #3c737f;  /* Light gray border */
+    border-radius: 5px;
+    background-color: #92dfdf;  /* Light pastel blue */
+  }
+  
+  label {
+    margin-bottom: 5px;
+    color: #e7d86e;  /* Mid gray */
+  }
+  
+  input[type="text"],
+  input[type="tel"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #bb6fe7;  /* Light gray border */
+    border-radius: 3px;
+    font-size: 16px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;  /* White text */
+    background-color: #9900cc;  /* Pastel purple */
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #aa00ff;  /* Darker pastel purple */
+  }
+  
